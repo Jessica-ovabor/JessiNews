@@ -1,0 +1,52 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-color:#f0b30f;
+}
+/*nav bar*/
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+/* #email {
+    padding-left: 100px;
+   
+
+} */
+ul li a:hover{
+   color: var(--main-color)!important;
+   border-bottom: 2px solid var(--main-color);
+}
+.navbar-brand{
+    /* color:var(--main-color)!important */
+    padding-left: 50px;
+}
+/*featured work */
+p{
+    padding-left:0;
+}
+.news-btn{
+    background-color: antiquewhite;
+    border-radius: 2px;
+
+    border:0;
+    text-align: center;
+    width: 10%;
+    cursor: pointer;
+    padding: 5px 0 5px 0;
+    
+    
+}
+.section-news{
+    
+        background: red;
+        background-size: cover;
+    
+}
