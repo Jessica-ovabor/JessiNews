@@ -102,5 +102,30 @@ p{
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
+}
+/*Bulletin story*/
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    margin: 10px;
+  }
+  
+  .circle img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+/*section subscribe*/
+.section-subscribe{
+    background: #f0b30f;
+    height: 40vh;
+    /* padding: 20px; */
+
 }
