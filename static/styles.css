@@ -129,3 +129,34 @@ a{
     /* padding: 20px; */
 
 }
+/* Carousel */
+.carousel-item{
+    height: 50vh;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: red;
+  
+}
+.carousel-control-next-icon{
+    margin-left: 170px;
+    
+}
+.carousel-control-prev-icon{
+    margin-right: 170px;
+}
+
+/* .carousel-control-prev,
+.carousel-control-next {
+    background-color: red;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: white;
+}
+
+.carousel-indicator {
+    color: red;
+    font-size: 16px;
+    margin-left: 5px;
+} */

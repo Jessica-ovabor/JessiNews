@@ -23,9 +23,9 @@ def index():
         
     return render_template('index.html', context=mylist)
 @app.route('/')
-def cnn():
+def aljazeera():
     newsapi = NewsApiClient(api_key="f4c5d7534dea4c5b854bd30e6688339f")
-    topheadlines = newsapi.get_top_headlines(sources="handelsblatt")
+    topheadlines = newsapi.get_top_headlines(sources="al-jazeera-english")
     articles = topheadlines['articles']
     news = []
     desc = []
@@ -38,9 +38,9 @@ def cnn():
         img.append(article['urlToImage'])
         content.append(article['content'])
         
-    mylist = zip(news, desc, img, content)
+    my_list = zip(news, desc, img, content)
         
-    return render_template('index.html', context=mylist)
+    return render_template('index.html', context=my_list)
 
 
 #subscribe email
